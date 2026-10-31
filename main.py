@@ -305,8 +305,8 @@ class AdventureApp(App):
          )
          
          
-         self.layout.add_widget(self.pit_label)
-         self.type_write_pit = Clock.schedule_interval(lambda dt: self.typewrite(dt, self.hole_text, self.pit_label), 0.045)
+        self.layout.add_widget(self.pit_label)
+        self.type_write_pit = Clock.schedule_interval(lambda dt: self.typewrite(dt, self.hole_text, self.pit_label), 0.045)
          
     def grapple_path(self, instance):
         self.stop()
