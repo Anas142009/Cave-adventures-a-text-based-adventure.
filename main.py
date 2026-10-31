@@ -244,7 +244,7 @@ class AdventureApp(App):
             self.type_write_fork.cancel()
             self.option_fork.cancel()
             self.skip_button.disabled = True
-        else:
+         else:
             self.skip_button.disabled = True
             
     def add_fork_options(self, dt):
